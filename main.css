@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(68, 63, 63);
+}
+
+h1 {
+  font-family: 'Spectral', serif;
+  font-size: 10vw;
+  text-shadow: rgb(173, 173, 160) 12px 10px 25px;
+}
+
+h2 {
+  font-family: 'Spectral', serif;
+}
+p, label, legend {
+  font-size: 1.8vw;
+}
+
+fieldset {
+  border: 0;
+}
+
+html {
+  background: url('http://i67.tinypic.com/syb2o0.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+main {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+section {
+  vertical-align: top;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+label {
+  vertical-align: middle;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(94, 87, 87);
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+img {
+  vertical-align: top;
+  float: left;
+  width: 20vw;
+  max-width: 219px;
+  margin-right: 50px;
+}
+
+button,
+input {
+  background: transparent;
+  color:rgb(63, 63, 50);
+  border:rgb(182, 182, 168) solid 1px;
+  height:45px;
+  padding:0 16px;
+  transition:400ms ease all;
+  box-shadow: 3px 1px 20px rgba(109, 50, 50, 0.18);
+  font-size:1.0em;
+  font-family: 'Spectral', serif;
+  cursor:pointer;
+}
+
+button:hover,
+input:hover {
+  background:rgb(255, 255, 255);
+  color:rgb(53, 54, 43);
+}
+
+.container {
+  max-width: 60%;
+  position: absolute;
+  right: 10%;
+}
+
+@media (max-width: 600px) {
+   img {
+     display: block;
+     float: none;
+     clear: both;
+     margin: auto;
+     width: 30%;
+     min-width: 100px;
+  }
+
+p, label, legend {
+    font-size: 100%;
+  }
+
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .container {
+  max-width: 100%;
+  position: static;
+  right: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
