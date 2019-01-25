@@ -1,15 +1,3 @@
-/* Project revisions checklist
------------------------------------------------------
-1. added alt attribute to all images. (done)
-2. removed css outline declaration. (done)
-3. when restarting quiz, user score does not reset (done)
-4. provide feedback to user that they are required to select an answer (done)
-5. no indicator to say that they did something wrong, so app looks broken (done)
-6. no visual indicator to a keyboard user that they're' focused on a button. removed outline none (done)
-7. user is able to skip questions but javascript error prevents this. (done)
------------------------------------------------------
- */
-
 'use strict';
 
 function updateScore(score) {
